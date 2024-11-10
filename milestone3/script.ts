@@ -1,5 +1,5 @@
 const form = document.getElementById('resume-form') as HTMLFormElement;
-const resumeDisplayElement =document.getElementById('resume.display') as HTMLMediaElement
+const resumeDisplayElement =document.getElementById('resume-display') as HTMLMediaElement;
 
 // handle form submission
 form.addEventListener('submit',(event:Event)=>{
