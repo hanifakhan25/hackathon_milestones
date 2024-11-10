@@ -30,8 +30,8 @@ form.addEventListener('submit',(event:Event)=>{
    <p>${skills}</p>
     `;
     //display the generated resume
-    if(resumedisplayElement){
-        resumedisplayElement.innerHTML=resumeHTML;
+    if(resumeDisplayElement){
+        resumeDisplayElement.innerHTML=resumeHTML;
     }else{
         console.error('the resume display element is missing');
     }
