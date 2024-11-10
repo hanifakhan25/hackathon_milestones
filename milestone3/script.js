@@ -1,5 +1,5 @@
 var form = document.getElementById('resume-form');
-var resumeDisplayElement = document.getElementById('resume.display');
+var resumeDisplayElement = document.getElementById('resume-display');
 // handle form submission
 form.addEventListener('submit', function (event) {
     event.preventDefault(); //prevent page relode 
